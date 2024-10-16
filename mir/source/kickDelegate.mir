@@ -1,0 +1,227 @@
+[ @file = "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc"; @line = 3; ]
+import Toybox.System;
+[ @file = "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc"; @line = 4; ]
+import Toybox.Math;
+[ @file = "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc"; @line = 9; @position = 4; ]
+var position = -1;
+[ @file = "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc"; @line = 10; @position = 4; ]
+var dive = 0;
+[ @file = "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc"; @line = 11; @position = 4; ]
+var done = 0;
+[ @file = "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc"; @line = 13; ]
+class kickDelegate extends WatchUi.BehaviorDelegate{
+    [ @file = "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc"; @line = 13; ]
+    <init> {
+    }
+    [ @file = "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc"; @line = 13; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc"; @line = 15; ]
+    function initialize() as Void {
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_15_26_17_4_start:
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 16 8 ]
+        %tmp.2 = getv ? :BehaviorDelegate;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_15_26_17_4_stop:
+    }
+    [ @file = "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc"; @line = 19; ]
+    function onKey(key) {
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_19_25_62_4_start:
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 21 8 ]
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_21_8_32_8_if_stmt:
+        %tmp.1 = lgetv %key;
+        %tmp.2 = getv function %tmp.1 :getKey;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = 13;
+        %tmp.5 = eq %tmp.3 %tmp.4;
+        bf %tmp.5 @_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_21_8_32_8_if_end;
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_21_8_32_8_if_true:
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_21_31_32_8_start:
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 22 12 ]
+        %tmp.6 = getm $.Toybox.Math;
+        %tmp.7 = getv function %tmp.6 :rand;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        %tmp.9 = 2;
+        %tmp.10 = mod %tmp.8 %tmp.9;
+        putv self :dive %tmp.10;
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 23 12 ]
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_23_12_25_12_if_stmt:
+        %tmp.12 = getv ? :position;
+        %tmp.13 = 2;
+        %tmp.14 = lt %tmp.12 %tmp.13;
+        bf %tmp.14 @_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_23_12_25_12_if_end;
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_23_12_25_12_if_true:
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_23_30_25_12_start:
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 24 16 ]
+        %tmp.15 = 0;
+        putv self :position %tmp.15;
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_23_30_25_12_stop:
+        goto @_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_23_12_25_12_if_end;
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_23_12_25_12_if_end:
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 26 12 ]
+        %tmp.16 = getm $.Toybox.System;
+        %tmp.17 = getv function %tmp.16 :println;
+        %tmp.18 = "position:";
+        %tmp.20 = getv ? :position;
+        %tmp.21 = add %tmp.18 %tmp.20;
+        invoke %tmp.16 %tmp.17(%tmp.21);
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 27 12 ]
+        %tmp.22 = getm $.Toybox.System;
+        %tmp.23 = getv function %tmp.22 :println;
+        %tmp.24 = "dive:";
+        %tmp.26 = getv ? :dive;
+        %tmp.27 = add %tmp.24 %tmp.26;
+        invoke %tmp.22 %tmp.23(%tmp.27);
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 28 12 ]
+        %tmp.28 = getm $.Toybox.System;
+        %tmp.29 = getv function %tmp.28 :println;
+        %tmp.30 = "done:";
+        %tmp.32 = getv ? :done;
+        %tmp.33 = add %tmp.30 %tmp.32;
+        invoke %tmp.28 %tmp.29(%tmp.33);
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 29 12 ]
+        %tmp.34 = getm $.Toybox.System;
+        %tmp.35 = getv function %tmp.34 :println;
+        %tmp.36 = "--------------";
+        invoke %tmp.34 %tmp.35(%tmp.36);
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 30 12 ]
+        %tmp.37 = getm $.Toybox.WatchUi;
+        %tmp.38 = getv function %tmp.37 :requestUpdate;
+        invoke %tmp.37 %tmp.38();
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 31 12 ]
+        %tmp.39 = true;
+        ret %tmp.39;
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_21_31_32_8_stop:
+        goto @_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_21_8_32_8_if_end;
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_21_8_32_8_if_end:
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 35 8 ]
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_35_8_46_8_if_stmt:
+        %tmp.40 = lgetv %key;
+        %tmp.41 = getv function %tmp.40 :getKey;
+        %tmp.42 = invoke %tmp.40 %tmp.41();
+        %tmp.43 = 8;
+        %tmp.44 = eq %tmp.42 %tmp.43;
+        bf %tmp.44 @_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_35_8_46_8_if_end;
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_35_8_46_8_if_true:
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_35_30_46_8_start:
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 36 12 ]
+        %tmp.45 = getm $.Toybox.Math;
+        %tmp.46 = getv function %tmp.45 :rand;
+        %tmp.47 = invoke %tmp.45 %tmp.46();
+        %tmp.48 = 2;
+        %tmp.49 = mod %tmp.47 %tmp.48;
+        putv self :dive %tmp.49;
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 37 12 ]
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_37_12_39_12_if_stmt:
+        %tmp.51 = getv ? :position;
+        %tmp.52 = 2;
+        %tmp.53 = lt %tmp.51 %tmp.52;
+        bf %tmp.53 @_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_37_12_39_12_if_end;
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_37_12_39_12_if_true:
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_37_30_39_12_start:
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 38 16 ]
+        %tmp.54 = 1;
+        putv self :position %tmp.54;
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_37_30_39_12_stop:
+        goto @_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_37_12_39_12_if_end;
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_37_12_39_12_if_end:
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 40 12 ]
+        %tmp.55 = getm $.Toybox.System;
+        %tmp.56 = getv function %tmp.55 :println;
+        %tmp.57 = "position:";
+        %tmp.59 = getv ? :position;
+        %tmp.60 = add %tmp.57 %tmp.59;
+        invoke %tmp.55 %tmp.56(%tmp.60);
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 41 12 ]
+        %tmp.61 = getm $.Toybox.System;
+        %tmp.62 = getv function %tmp.61 :println;
+        %tmp.63 = "dive:";
+        %tmp.65 = getv ? :dive;
+        %tmp.66 = add %tmp.63 %tmp.65;
+        invoke %tmp.61 %tmp.62(%tmp.66);
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 42 12 ]
+        %tmp.67 = getm $.Toybox.System;
+        %tmp.68 = getv function %tmp.67 :println;
+        %tmp.69 = "done:";
+        %tmp.71 = getv ? :done;
+        %tmp.72 = add %tmp.69 %tmp.71;
+        invoke %tmp.67 %tmp.68(%tmp.72);
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 43 12 ]
+        %tmp.73 = getm $.Toybox.System;
+        %tmp.74 = getv function %tmp.73 :println;
+        %tmp.75 = "--------------";
+        invoke %tmp.73 %tmp.74(%tmp.75);
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 44 12 ]
+        %tmp.76 = getm $.Toybox.WatchUi;
+        %tmp.77 = getv function %tmp.76 :requestUpdate;
+        invoke %tmp.76 %tmp.77();
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 45 12 ]
+        %tmp.78 = true;
+        ret %tmp.78;
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_35_30_46_8_stop:
+        goto @_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_35_8_46_8_if_end;
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_35_8_46_8_if_end:
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 49 8 ]
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_49_8_58_8_if_stmt:
+        %tmp.79 = lgetv %key;
+        %tmp.80 = getv function %tmp.79 :getKey;
+        %tmp.81 = invoke %tmp.79 %tmp.80();
+        %tmp.82 = 4;
+        %tmp.83 = eq %tmp.81 %tmp.82;
+        bf %tmp.83 @_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_49_8_58_8_if_end;
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_49_8_58_8_if_true:
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_49_30_58_8_start:
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 50 12 ]
+        %tmp.84 = 1;
+        putv self :done %tmp.84;
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 52 12 ]
+        %tmp.85 = getm $.Toybox.System;
+        %tmp.86 = getv function %tmp.85 :println;
+        %tmp.87 = "position:";
+        %tmp.89 = getv ? :position;
+        %tmp.90 = add %tmp.87 %tmp.89;
+        invoke %tmp.85 %tmp.86(%tmp.90);
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 53 12 ]
+        %tmp.91 = getm $.Toybox.System;
+        %tmp.92 = getv function %tmp.91 :println;
+        %tmp.93 = "dive:";
+        %tmp.95 = getv ? :dive;
+        %tmp.96 = add %tmp.93 %tmp.95;
+        invoke %tmp.91 %tmp.92(%tmp.96);
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 54 12 ]
+        %tmp.97 = getm $.Toybox.System;
+        %tmp.98 = getv function %tmp.97 :println;
+        %tmp.99 = "done:";
+        %tmp.101 = getv ? :done;
+        %tmp.102 = add %tmp.99 %tmp.101;
+        invoke %tmp.97 %tmp.98(%tmp.102);
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 55 12 ]
+        %tmp.103 = getm $.Toybox.System;
+        %tmp.104 = getv function %tmp.103 :println;
+        %tmp.105 = "--------------";
+        invoke %tmp.103 %tmp.104(%tmp.105);
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 56 12 ]
+        %tmp.106 = getm $.Toybox.WatchUi;
+        %tmp.107 = getv function %tmp.106 :requestUpdate;
+        invoke %tmp.106 %tmp.107();
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 57 12 ]
+        %tmp.108 = true;
+        ret %tmp.108;
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_49_30_58_8_stop:
+        goto @_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_49_8_58_8_if_end;
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_49_8_58_8_if_end:
+[ "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" 61 8 ]
+        %tmp.109 = false;
+        ret %tmp.109;
+_Users_manbirbriar_GarminTutorial_kick_source_kickDelegate_mc_19_25_62_4_stop:
+    }
+}
+[ @file = "/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc"; @line = 1; ]
+<init> {
+}

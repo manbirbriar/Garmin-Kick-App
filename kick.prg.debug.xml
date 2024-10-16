@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/manbirbriar/GarminTutorial/kick/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickApp.mc" id="1" lineNum="26" parent="globals" pc="268435457" symbol="getApp"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickApp.mc" id="1" lineNum="27" parent="globals" pc="268435467" symbol="getApp"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="2" lineNum="19" parent="globals/kickView" pc="268435478" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/gen/006-B4432-00/source/Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435490" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="4" lineNum="13" parent="globals/kickDelegate" pc="268435510" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickApp.mc" id="5" lineNum="5" parent="globals/kickApp" pc="268435522" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="66" parent="globals/kickView" pc="268435534" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="67" parent="globals/kickView" pc="268435536" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="68" parent="globals/kickView" pc="268435547" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="69" parent="globals/kickView" pc="268435563" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="72" parent="globals/kickView" pc="268435579" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="73" parent="globals/kickView" pc="268435599" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="74" parent="globals/kickView" pc="268435615" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="77" parent="globals/kickView" pc="268435631" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="78" parent="globals/kickView" pc="268435652" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="79" parent="globals/kickView" pc="268435668" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="82" parent="globals/kickView" pc="268435684" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="83" parent="globals/kickView" pc="268435695" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="84" parent="globals/kickView" pc="268435715" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="86" parent="globals/kickView" pc="268435726" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="87" parent="globals/kickView" pc="268435746" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="88" parent="globals/kickView" pc="268435762" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="89" parent="globals/kickView" pc="268435770" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="92" parent="globals/kickView" pc="268435779" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="93" parent="globals/kickView" pc="268435801" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="95" parent="globals/kickView" pc="268435812" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="96" parent="globals/kickView" pc="268435834" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="97" parent="globals/kickView" pc="268435850" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="6" lineNum="98" parent="globals/kickView" pc="268435858" symbol="drawSpot"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="7" lineNum="105" parent="globals/kickView" pc="268435868" symbol="play"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="7" lineNum="106" parent="globals/kickView" pc="268435870" symbol="play"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="7" lineNum="107" parent="globals/kickView" pc="268435878" symbol="play"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="7" lineNum="108" parent="globals/kickView" pc="268435894" symbol="play"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="8" lineNum="43" parent="globals/kickView" pc="268435903" symbol="onShow"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="8" lineNum="44" parent="globals/kickView" pc="268435905" symbol="onShow"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="9" lineNum="26" parent="globals/kickView" pc="268435992" symbol="onLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="9" lineNum="27" parent="globals/kickView" pc="268435994" symbol="onLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="9" lineNum="29" parent="globals/kickView" pc="268436027" symbol="onLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="9" lineNum="30" parent="globals/kickView" pc="268436047" symbol="onLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="9" lineNum="31" parent="globals/kickView" pc="268436067" symbol="onLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="9" lineNum="33" parent="globals/kickView" pc="268436087" symbol="onLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="9" lineNum="35" parent="globals/kickView" pc="268436107" symbol="onLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="9" lineNum="36" parent="globals/kickView" pc="268436127" symbol="onLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="9" lineNum="37" parent="globals/kickView" pc="268436147" symbol="onLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="10" lineNum="21" parent="globals/kickView" pc="268436168" symbol="initialize"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="10" lineNum="22" parent="globals/kickView" pc="268436170" symbol="initialize"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="12" lineNum="54" parent="globals/kickView" pc="268436183" symbol="onUpdate"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="12" lineNum="56" parent="globals/kickView" pc="268436185" symbol="onUpdate"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="12" lineNum="58" parent="globals/kickView" pc="268436201" symbol="onUpdate"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="12" lineNum="59" parent="globals/kickView" pc="268436209" symbol="onUpdate"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickView.mc" id="12" lineNum="61" parent="globals/kickView" pc="268436225" symbol="onUpdate"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="13" lineNum="15" parent="globals/kickDelegate" pc="268436237" symbol="initialize"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="13" lineNum="16" parent="globals/kickDelegate" pc="268436239" symbol="initialize"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="19" parent="globals/kickDelegate" pc="268436252" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="21" parent="globals/kickDelegate" pc="268436254" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="22" parent="globals/kickDelegate" pc="268436267" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="23" parent="globals/kickDelegate" pc="268436287" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="24" parent="globals/kickDelegate" pc="268436298" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="26" parent="globals/kickDelegate" pc="268436306" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="27" parent="globals/kickDelegate" pc="268436330" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="28" parent="globals/kickDelegate" pc="268436354" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="29" parent="globals/kickDelegate" pc="268436378" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="30" parent="globals/kickDelegate" pc="268436396" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="31" parent="globals/kickDelegate" pc="268436407" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="35" parent="globals/kickDelegate" pc="268436409" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="36" parent="globals/kickDelegate" pc="268436422" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="37" parent="globals/kickDelegate" pc="268436442" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="38" parent="globals/kickDelegate" pc="268436453" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="40" parent="globals/kickDelegate" pc="268436462" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="41" parent="globals/kickDelegate" pc="268436486" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="42" parent="globals/kickDelegate" pc="268436510" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="43" parent="globals/kickDelegate" pc="268436534" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="44" parent="globals/kickDelegate" pc="268436552" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="45" parent="globals/kickDelegate" pc="268436563" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="49" parent="globals/kickDelegate" pc="268436565" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="50" parent="globals/kickDelegate" pc="268436578" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="52" parent="globals/kickDelegate" pc="268436587" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="53" parent="globals/kickDelegate" pc="268436611" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="54" parent="globals/kickDelegate" pc="268436635" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="55" parent="globals/kickDelegate" pc="268436659" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="56" parent="globals/kickDelegate" pc="268436677" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="57" parent="globals/kickDelegate" pc="268436688" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickDelegate.mc" id="14" lineNum="61" parent="globals/kickDelegate" pc="268436690" symbol="onKey"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickApp.mc" id="16" lineNum="20" parent="globals/kickApp" pc="268436692" symbol="getInitialView"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickApp.mc" id="16" lineNum="21" parent="globals/kickApp" pc="268436694" symbol="getInitialView"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickApp.mc" id="17" lineNum="7" parent="globals/kickApp" pc="268436749" symbol="initialize"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/source/kickApp.mc" id="17" lineNum="8" parent="globals/kickApp" pc="268436751" symbol="initialize"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/gen/006-B4432-00/source/Rez.mcgen" id="19" lineNum="20" parent="globals/Rez/Layouts" pc="268436764" symbol="MainLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/gen/006-B4432-00/source/Rez.mcgen" id="19" lineNum="21" parent="globals/Rez/Layouts" pc="268436775" symbol="MainLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/gen/006-B4432-00/source/Rez.mcgen" id="19" lineNum="22" parent="globals/Rez/Layouts" pc="268436862" symbol="MainLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/gen/006-B4432-00/source/Rez.mcgen" id="19" lineNum="24" parent="globals/Rez/Layouts" pc="268436904" symbol="MainLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/gen/006-B4432-00/source/Rez.mcgen" id="19" lineNum="25" parent="globals/Rez/Layouts" pc="268436989" symbol="MainLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/gen/006-B4432-00/source/Rez.mcgen" id="19" lineNum="27" parent="globals/Rez/Layouts" pc="268437021" symbol="MainLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/gen/006-B4432-00/source/Rez.mcgen" id="19" lineNum="29" parent="globals/Rez/Layouts" pc="268437103" symbol="MainLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/gen/006-B4432-00/source/Rez.mcgen" id="19" lineNum="31" parent="globals/Rez/Layouts" pc="268437186" symbol="MainLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/gen/006-B4432-00/source/Rez.mcgen" id="19" lineNum="32" parent="globals/Rez/Layouts" pc="268437271" symbol="MainLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/gen/006-B4432-00/source/Rez.mcgen" id="19" lineNum="34" parent="globals/Rez/Layouts" pc="268437303" symbol="MainLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/gen/006-B4432-00/source/Rez.mcgen" id="19" lineNum="36" parent="globals/Rez/Layouts" pc="268437386" symbol="MainLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/gen/006-B4432-00/source/Rez.mcgen" id="19" lineNum="38" parent="globals/Rez/Layouts" pc="268437468" symbol="MainLayout"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/gen/006-B4432-00/source/Rez.mcgen" id="20" lineNum="43" parent="globals/Rez/Menus/MainMenu" pc="268437508" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/gen/006-B4432-00/source/Rez.mcgen" id="21" lineNum="44" parent="globals/Rez/Menus/MainMenu" pc="268437520" symbol="initialize"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/gen/006-B4432-00/source/Rez.mcgen" id="21" lineNum="45" parent="globals/Rez/Menus/MainMenu" pc="268437522" symbol="initialize"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/gen/006-B4432-00/source/Rez.mcgen" id="21" lineNum="46" parent="globals/Rez/Menus/MainMenu" pc="268437534" symbol="initialize"/>
+        <entry filename="/Users/manbirbriar/GarminTutorial/kick/gen/006-B4432-00/source/Rez.mcgen" id="21" lineNum="47" parent="globals/Rez/Menus/MainMenu" pc="268437579" symbol="initialize"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry field="true" id="8" symbol="dive"/>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8389346" symbol="text"/>
+        <entry field="true" id="21" symbol="standing"/>
+        <entry field="true" id="26" symbol="field"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="14" object="true" symbol="kickView"/>
+        <entry id="5" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="27" method="true" symbol="MainLayout"/>
+        <entry field="true" id="11" symbol="done"/>
+        <entry field="true" id="10" symbol="diveright"/>
+        <entry field="true" id="8389310" symbol="position"/>
+        <entry field="true" id="20" symbol="spot"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="18" symbol="reset"/>
+        <entry field="true" id="29" symbol="AppName"/>
+        <entry field="true" id="9" symbol="diveleft"/>
+        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry field="true" id="17" symbol="mytext"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="32" symbol="prompt"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="34" symbol="item_2"/>
+        <entry id="33" symbol="item_1"/>
+        <entry id="24" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8391298" method="true" symbol="play"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry field="true" id="7" symbol="bg"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="28" object="true" symbol="MainMenu"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="19" symbol="right"/>
+        <entry field="true" id="25" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="16" symbol="myTimer"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="12" object="true" symbol="kickApp"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry id="13" object="true" symbol="kickDelegate"/>
+        <entry id="8389097" method="true" symbol="onKey"/>
+        <entry id="8388646" module="true" object="true" symbol="Timer"/>
+        <entry id="23" module="true" symbol="Layouts"/>
+        <entry field="true" id="15" symbol="left"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="31" symbol="menu_label_2"/>
+        <entry field="true" id="30" symbol="menu_label_1"/>
+        <entry id="22" method="true" symbol="drawSpot"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435867" name="dc" stackId="1" startPc="268435534"/>
+        <entry arg="true" endPc="268435902" name="dc" stackId="1" startPc="268435868"/>
+        <entry arg="true" endPc="268436167" name="dc" stackId="1" startPc="268435992"/>
+        <entry arg="true" endPc="268436236" name="dc" stackId="1" startPc="268436183"/>
+        <entry arg="true" endPc="268436691" name="key" stackId="1" startPc="268436252"/>
+        <entry arg="true" endPc="268437507" name="dc" stackId="1" startPc="268436764"/>
+    </localVars>
+    <deviceInfo deviceVersion="18d3864e5be3fdffa7038f2e47554e4f34d28e8a" partNumber="006-B4432-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="left"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="right"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="diveleft"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="spot"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="field"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="diveright"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="standing"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/kickView" offset="260" parentId="globals" symbolId="kickView" type="class"/>
+        <dataEntry label="globals/Rez" offset="358" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/kickDelegate" offset="420" parentId="globals" symbolId="kickDelegate" type="class"/>
+        <dataEntry label="globals/kickApp" offset="473" parentId="globals" symbolId="kickApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="544" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="642" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="677" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="712" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="774" parentId="Menus" symbolId="MainMenu" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435477" name="getApp" startPc="268435457">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435489" name="&lt;init&gt;" parent="kickView" startPc="268435478">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435509" name="&lt;init&gt;" parent="Rez" startPc="268435490">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435521" name="&lt;init&gt;" parent="kickDelegate" startPc="268435510">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435533" name="&lt;init&gt;" parent="kickApp" startPc="268435522">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435867" name="drawSpot" parent="kickView" startPc="268435534">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435902" name="play" parent="kickView" startPc="268435868">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435991" name="onShow" parent="kickView" startPc="268435903">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436167" name="onLayout" parent="kickView" startPc="268435992">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436182" name="initialize" parent="kickView" startPc="268436168">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="kickView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436236" name="onUpdate" parent="kickView" startPc="268436183">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436251" name="initialize" parent="kickDelegate" startPc="268436237">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436691" name="onKey" parent="kickDelegate" startPc="268436252">
+            <param id="key"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="kickApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436748" name="getInitialView" parent="kickApp" startPc="268436692">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436763" name="initialize" parent="kickApp" startPc="268436749">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="kickApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437507" name="MainLayout" parent="Layouts" startPc="268436764">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437519" name="&lt;init&gt;" parent="MainMenu" startPc="268437508">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437624" name="initialize" parent="MainMenu" startPc="268437520">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
